@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "arial", sans-serif;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #000;
   color: #999;
@@ -29,10 +29,6 @@ h4 {
 a {
   color: #fff;
   text-decoration: none;
-}
-
-p {
-  margin: 0.5rem 0;
 }
 
 img {
@@ -56,7 +52,7 @@ img {
   height: 100%;  
   z-index: 1;
 background: rgba(0, 0, 0, 0.6);
-box-shadow:  inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+box-shadow:  inset 60px 50px 250px #000000, inset -120px -100px 250px #000000;
 }
 .logo {
   width: 120px;
@@ -113,13 +109,19 @@ margin-left: 1cm;
 .showcase-content h3{
 
   color:#fff;
-  font-weight: 200;
-  font-size: 1.9rem;
-  line-height: 1.25;
-  margin: 0 0 2rem;
+  font-weight:50;
+  font-size: 1.6rem;
+  line-height: 0.3;
+  margin: 0 0 3rem;
+ 
   
 }
-
+.showcase-content p {
+  z-index: 3;
+  font-weight:100;
+  margin-bottom: 2rem;
+  color: #fff;
+}
 /* Buttons */
 
 .btn {
@@ -146,9 +148,19 @@ margin-left: 1cm;
 }
 
 .btn-xl {
-  font-size: 2rem;
-  padding: 1.5rem 2.1rem;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  
   text-transform: uppercase;
+}
+.email {
+  width: 500px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 23px;
+ 
+
 }
 
 .btn-lg {
