@@ -58,7 +58,17 @@ img {
 background: rgba(0, 0, 0, 0.6);
 box-shadow:  inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
-
+.logo {
+  width: 120px;
+  position: absolute;
+ 
+ padding-bottom: 40%;
+ z-index: 2;
+display:flex;
+justify-content:left;
+margin-top: 1cm;
+margin-left: 1cm;
+}
 
 .showcase-top {
   position: relative;
@@ -95,18 +105,19 @@ box-shadow:  inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 .showcase-content h1 {
   font-weight: 700;
-  font-size: 5.2rem;
+  font-size: 50px;
   line-height: 1.1;
   margin: 0 0 2rem;
 }
 
-.showcase-content p{
-  text-transform: uppercase;
+.showcase-content h3{
+
   color:#fff;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1.9rem;
   line-height: 1.25;
   margin: 0 0 2rem;
+  
 }
 
 /* Buttons */
